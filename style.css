@@ -1,0 +1,128 @@
+body{
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+margin-top: 100px;
+
+}
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    width:550px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.323);
+    border-radius: 15px  15px 0 0;
+
+}
+
+footer{
+  position: relative;
+  margin-top:90px ;
+ display: flex;
+ justify-content: center;
+  
+}
+.contenido{
+    width:550px;
+    margin: 0 auto;
+      height:auto;
+      display:flex;
+      flex-direction:row;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.323)
+}
+
+.contenido div{
+    flex:0 1 60% 40%;
+
+}
+
+.tabla{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 50px 50px 30px ;
+
+}
+
+.card{
+    width: 60px;
+    height: 80px;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    color: rgb(242, 172, 41);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin: 4px 4px 4px 4px ;
+    background-color: rgba(173, 215, 252, 0.642);
+    flex-grow: 1; /*ajusta los cuadros al tamaño xla cantidad*/
+}
+
+.contenedor{
+   width: 150px;
+   height: 60px;
+   text-align: center ;
+   padding-top: 20px;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 15px;
+   margin: 5px;
+   background-color: rgba(162, 255, 221, 0.44);
+   padding: 10px;
+   
+
+}
+
+.btn{
+        height: 40px;
+       
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        outline: none;
+        border-radius: 5px;
+        background: #00000084;
+        border: 2px solid  black;
+        color:rgb(242, 172, 41);
+        margin-top: 10px;
+      }
+      .btn:hover {
+        color: #fff;
+      }
+      .btn:hover:after {
+        height: 100%;
+      }
+      .btn:after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        transition: all 0.3s ease;
+        left: 0;
+        bottom: 0;
+        height: 0;
+        width: 100%;
+        background: #2c0b8ea6;
+      }
+
+      .marcador{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      }
+
+      h2{
+        font-size: 3rem;
+       margin-bottom: 0;
+       text-decoration: underline;
+       text-shadow: rgb(255, 255, 255) 1px 0 10px;
+      }

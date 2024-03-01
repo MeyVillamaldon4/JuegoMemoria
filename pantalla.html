@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="titulo">
+        <h2>Juego de Memoria</h2>
+    </header>
+
+    <main class="contenido">
+
+        <div class="tabla">
+                <button class="card" id="0" onclick="destapar(0)">  </button>
+                <button class="card" id="1" onclick="destapar(1)">  </button>
+                <button class="card" id="2" onclick="destapar(2)">  </button>
+                <button class="card" id="3" onclick="destapar(3)">  </button>
+                <button class="card" id="4" onclick="destapar(4)">  </button>
+                <button class="card" id="5" onclick="destapar(5)">  </button>
+                <button class="card" id="6" onclick="destapar(6)">  </button>
+                <button class="card" id="7" onclick="destapar(7)">  </button>
+                <button class="card" id="8" onclick="destapar(8)">  </button>               
+                <button class="card" id="9" onclick="destapar(9)">  </button>
+                <button class="card" id="10" onclick="destapar(10)">  </button>
+                <button class="card" id="11" onclick="destapar(11)">  </button>
+                <button class="card" id="12" onclick="destapar(12)">  </button>               
+                <button class="card" id="13" onclick="destapar(13)">  </button>
+                <button class="card" id="14" onclick="destapar(14)">  </button>
+                <button class="card" id="15" onclick="destapar(15)">  </button>
+               
+               
+        </div>
+        <div class="marcador">
+
+            <div class="contenedor" id="contenedor-aciertos"> Aciertos: <br><span > 0 </span></div>
+            <div id="contenedor-tiempo" class="contenedor">Tiempo: <br><span>30 </span> segundos </div>
+            <div id="contenedor-movimiento" class="contenedor"> Movimientos : <br><span> 0</span> </div>
+
+        </div>
+
+
+
+    </main>
+
+    <button class="btn" id="refresh"> Reiniciar Juego </button>
+
+
+
+
+    <script src="juego.js"></script>
+
+    <footer>© 2024 Mey. Todos los derechos reservados. </footer>
+</body>
+
+</html>
